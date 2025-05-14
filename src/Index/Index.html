@@ -1,11 +1,122 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Verde Lar</title>
+    <link rel="icon" href="/src/assets/Logo_head.jpeg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+        }
+
+        header {
+            background-image: url('../assets/Index/BannerPrincipal.png');
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 90vh;
+            width: 100%;
+            position: relative;
+            overflow: hidden;
+        }
+    
+        nav {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            padding:  10px 4rem;
+
+            & .nav-links {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-around;
+                gap: 15px;
+
+                width: 30%;
+
+                & a {
+                    font-family: "Lato", sans-serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    font-size: 16px;
+                    color: #545454;
+                    
+                    cursor: pointer;
+
+                    &:hover {
+                        color: #334f41;
+                        transform: scale(1.03);
+                    }
+                }
+            }
+
+            & .nav-img{
+                
+                & a {
+                    cursor: pointer;
+
+                    & img {
+                        width: 4rem;
+                        height: 4rem;
+
+                        &:hover {
+                            transform: scale(1.03);
+                        }
+                    }
+
+                }
+
+            }       
+        }
+    
+        body {
+            font-size: 100%;
+        }
+    
+    
+    
+    
+    </style>
 </head>
+
 <body>
     
+    <header>
+        <nav>
+            <section class="nav-links">
+                <a>Inicio</a>
+                <a>Projetos</a>
+                <a>Sobre nos</a>
+                <a>Simulação</a>
+                <a>Contato</a>
+            </section>
+
+            <section class="nav-img">
+                <a>
+                    <img class="img" src="../assets/Logo.png" alt="logo do verde lar"/>
+                </a>
+            </section>
+        </nav>
+    </header>
+
+    <body>
+
+    </body>
+
+    <footer>
+        <p>© Verde Lar Construções, todos os direitos reservados</p>
+    </footer>
+
 </body>
 </html>
