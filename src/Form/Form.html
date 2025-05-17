@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verde Lar</title>
+    <link rel="icon" href="/src/assets/Logo_head.jpeg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./Form.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header id="start">
+        <nav>
+            <section class="nav-links">
+                <a href="#start">Inicio</a>
+            </section>
+
+            <section class="nav-img">
+                <a>
+                    <img class="img" src="../assets/Logo.png" alt="logo do verde lar" />
+                </a>
+            </section>
+        </nav>
+    </header>
+
+    <section class="body">
+
+        <div class="titles">
+            <h1>Simulador de Financiamento</h1>
+        </div>
+
+        <div class="form" id="form">
+
+            <div class="timeline">
+                <div class="step active">1</div>
+                <div class="step">2</div>
+                <div class="step">3</div>
+                <div class="step">4</div>
+            </div>
+
+            <p id="title">Primeiro, selecione sua região: </p>
+
+            <div id="field" class="field">
+
+            </div>
+
+            <button id="next-btn">Próximo</button>
+        </div>
+
+    </section>
+    
+    <footer>
+        <p>© Verde Lar Construções, todos os direitos reservados</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script>
+        emailjs.init('');
+    </script>
+    <script src="Form.js"></script>
+</body>
+</html>

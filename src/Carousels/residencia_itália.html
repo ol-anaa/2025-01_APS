@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,11 +8,140 @@
     <link rel="icon" href="/src/assets/Logo_head.jpeg" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="./Index.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-    
+    <link rel="stylesheet" href="./buildings.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+
+    <style>
+        header {
+            background:
+                linear-gradient(to right, rgba(0, 0, 0, 0.7) 100%, transparent),
+                url('../assets/Carrusel/carousel_02.png') center/cover no-repeat;
+        }
+
+        .construction-01 {
+            background:
+                linear-gradient(to right, rgba(0, 0, 0, 0.7) 100%, transparent),
+                url('../assets/Carrusel/residencia_itália_Const01.png') center/cover no-repeat;
+        }
+    </style>
+
 </head>
+
 <body>
-    
+    <header id="start">
+        <nav>
+            <section class="nav-links">
+                <a href="#start">Inicio</a>
+            </section>
+
+            <section class="nav-img">
+                <a>
+                    <img class="img" src="../assets/Logo.png" alt="logo do verde lar" />
+                </a>
+            </section>
+        </nav>
+
+        <section class="header-titles">
+            <h2>
+                Transformamos o conceito de construção verde em realidade. Nosso último projeto, a Residencia Itália,
+                foi erguido com técnicas inovadoras que reduziram 35% das emissões de CO₂ em comparação a
+                métodos tradicionais. Utilizamos concreto reciclado, aço de baixo carbono e um sistema de gestão
+                inteligente de resíduos que garantiu o reaproveitamento de 90% dos materiais. A obra também contou com
+                energia solar temporária nos canteiros, eliminando o uso de geradores a diesel. Com certificação LEED
+                Platinum, o edifício se tornou um marco de eficiência energética e qualidade ambiental em São Paulo.
+            </h2>
+
+            <div class="highlights">
+                <button>
+                    <img src="../assets/Carrusel/icons/sol.png" />
+                    Energia solar fotovoltaica
+                </button>
+
+                <button>
+                    <img src="../assets/Carrusel/icons/agua.png" />
+                    Sistema de reúso hídrico
+                </button>
+
+                <button>
+                    <img src="../assets/Carrusel/icons/folha.png" />
+                    Área de 800m² que reduz ilhas de calor urbanas
+                </button>
+
+                <button>
+                    <img src="../assets/Carrusel/icons/Certificado.png" />
+                    Selo LEED Platinum – padrão internacional
+                </button>
+            </div>
+
+        </section>
+    </header>
+
+    <section class="body">
+
+        <section class="construction">
+            <img src="../assets/Carrusel/residencia_itália_Const.png" />
+
+            <div class="information">
+                <p>
+                    Da concepção à entrega, a Residência Itália foi desenvolvida com o mais alto padrão de
+                    sustentabilidade urbana. Iniciamos com um processo de desconstrução seletiva, reciclando 98% dos
+                    materiais da edificação anterior. A estrutura foi elevada com aço certificado e concreto de baixo
+                    carbono, reduzindo em 60% as emissões em comparação com métodos convencionais. Durante a execução,
+                    mantivemos um canteiro de obras autossustentável, alimentado por energia fotovoltaica e com sistema
+                    fechado de reaproveitamento hídrico.
+
+                    A fachada inteligente, com vidros eletrocrômicos e revestimento cerâmico refrigerante, foi
+                    cuidadosamente projetada para otimizar o conforto térmico natural. Os jardins verticais modulares,
+                    integrados à estrutura, não apenas embelezam, mas também melhoram a qualidade do ar interno. Em
+                    apenas 16 meses, entregamos um conceito pioneiro de moradia urbana sustentável no coração de São
+                    Paulo.
+                </p>
+
+                <a href="../Index/Index.html#contact">
+                    <button>Saiba mais</button>
+                </a>
+            </div>
+        </section>
+
+        <section class="construction-01">
+            <p>
+                Nossa obra na Residência Itália redefiniu os padrões da construção residencial sustentável, integrando
+                soluções tecnológicas de ponta com práticas ecológicas inovadoras. Utilizamos concreto reciclado de alta
+                resistência com 50% menos emissões e aço verde certificado, proveniente de usinas com operação carbono
+                neutro. O sistema de climatização inteligente, desenvolvido com modelagem BIM, reduz em 65% o consumo
+                energético, enquanto nossos jardins verticais com espécies da Mata Atlântica atuam como filtros
+                naturais, eliminando 82% dos compostos orgânicos voláteis, conforme atestado por pesquisas da UNESP.
+            </p>
+
+            <div class="icons">
+                <div class="buttons">
+                    <button>
+                        <img src="../assets/Carrusel/icons/telephone.png" />
+                    </button>
+
+                    <button>
+                        <img src="../assets/Carrusel/icons/folha.png" />
+                    </button>
+                </div>
+
+                <div class="buttons">
+                    <button>
+                        <img src="../assets/Carrusel/icons/casinha.png" />
+                    </button>
+
+                    <button>
+                        <img src="../assets/Carrusel/icons/martelo.png" />
+                    </button>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <footer>
+        <p>© Verde Lar Construções, todos os direitos reservados</p>
+    </footer>
 </body>
+
 </html>
