@@ -24,6 +24,10 @@ header {
         align-items: start;
         gap: 10px;
 
+        @media (max-width:768px) {
+            margin-left: 1.5rem;
+        }
+
         & h1 {
             font-family: "Gotham Condensed", sans-serif;
             font-weight: 700;
@@ -35,6 +39,10 @@ header {
 
             &:hover {
                 transform: scale(1.03);
+            }
+
+            @media (max-width:768px) {
+                font-size: 2.4rem;
             }
         }
 
@@ -48,6 +56,10 @@ header {
             &:hover {
                 transform: scale(1.03);
             }
+
+            @media (max-width:768px) {
+                font-size: 16px;
+            }
         }
 
         & button {
@@ -56,11 +68,15 @@ header {
     }
 
     nav {
-        display: flex !important;
+        display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
         padding: 10px 4rem;
+        
+        @media (max-width:768px) {
+            padding: 10px;
+        }
     
         & .nav-links {
             display: flex;
@@ -70,6 +86,10 @@ header {
             gap: 15px;
     
             width: 30%;
+
+            @media (max-width:768px) {
+                gap: 10px;
+            }
     
             & a {
                 font-family: "Lato", sans-serif;
@@ -84,6 +104,10 @@ header {
                     color: #334f41;
                     transform: scale(1.03);
                 }
+
+                @media (max-width:768px) {
+                    font-size: 10px;
+                }
             }
         }
     
@@ -95,6 +119,11 @@ header {
                 & img {
                     width: 4rem;
                     height: 4rem;
+
+                    @media (max-width:768px) {
+                        width: 2rem;
+                        height: 2rem;
+                    }
     
                     &:hover {
                         transform: scale(1.03);
@@ -114,6 +143,10 @@ header {
     & .carrousels {
         background-color: #dbdecc;
         padding: 4rem;
+
+        @media (max-width:768px) {
+            padding: 2rem;
+        }
     }
 
     & .about-us {
@@ -124,6 +157,11 @@ header {
         flex-direction: column;
         align-items: center;
         gap: 1.5rem;
+
+        @media (max-width:768px) {
+            padding: 2rem;
+            justify-content: center;
+        }
 
         & .title {
             padding: 0.5rem 3rem;
@@ -136,6 +174,10 @@ header {
                 transform: scale(1.03);
             }
 
+            @media (max-width:768px) {
+                padding: 0.5rem 2rem;
+            }
+
             & h2 {
                 font-family: "Gotham Condensed", sans-serif;
                 font-weight: 700;
@@ -146,6 +188,10 @@ header {
                 letter-spacing: 0.02em;
 
                 margin: 0;
+
+                @media (max-width:768px) {
+                    font-size: 1rem;
+                }
             }
         }
 
@@ -153,6 +199,10 @@ header {
             display: flex;
             flex-direction: row;
             gap: 1.5rem;
+
+            @media (max-width:768px) {
+                flex-direction: column;
+            }
 
             & .card {
                 display: flex;
@@ -210,6 +260,11 @@ header {
             display: flex;
             flex-direction: row;
             gap: 1.5rem;
+
+            @media (max-width:768px) {
+                flex-direction: column;
+                align-items:center;
+            }
 
             & .card {
                 display: flex;
@@ -292,6 +347,11 @@ header {
             &:hover {
                 transform: scale(1.03);
             }
+
+            @media (max-width:768px) {
+                font-size: 1rem;
+                padding: 0.5rem 2rem;
+            }
         }
 
         & p {
@@ -303,6 +363,11 @@ header {
             font-size: 20px;
             color: #545454;
             text-align: center;
+
+            
+            @media (max-width:768px) {
+                font-size: 14px;
+            }
         }
 
         & button {
@@ -330,6 +395,10 @@ header {
                 transform: scale(1.03);
             }
 
+            @media (max-width:768px) {
+                padding: 0.5rem;
+            }
+
             & h2 {
                 font-family: "Gotham Condensed", sans-serif;
                 font-weight: 700;
@@ -340,6 +409,11 @@ header {
                 letter-spacing: 0.02em;
 
                 margin: 0;
+
+                @media (max-width:768px) {
+                    font-size: 1rem;
+                    margin: 0 0.5rem;
+                }
             }
         }
 
@@ -349,11 +423,20 @@ header {
             align-items: safe;
             gap: 5rem;
 
+            @media (max-width:768px) {
+                flex-direction: column;
+                gap: 2rem;
+            }
+
             & img {
                 width: 40%;
                 height: 40%;
 
                 border-radius: 20px;
+
+                @media (max-width:768px) {
+                    width: 20rem;
+                }
             }
 
             & .company-information {
@@ -434,6 +517,13 @@ footer {
 
     &:hover {
         transform: scale(1.03);
+    }
+
+    @media (max-width:768px) {
+        width: 7rem;
+        height: 2.5rem;
+
+        font-size: 14px;
     }
 }
 
